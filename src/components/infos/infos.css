@@ -50,3 +50,29 @@ border-radius: 7px;
     margin-bottom: 0.4rem;
     color: #f95a5a;
 }
+
+@media screen and (max-width: 600px) {
+
+    
+    .aksil__infos-content{
+        margin-top: 1.5rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+    }
+    
+    .aksil__infos-content_card h4{
+        font-family: var(--font-family);
+        font-size: 0.85rem;
+        font-weight: 500;
+    }
+    
+    .aksil__infos-content_card p{
+        font-family: var(--font-family);
+        font-size: 0.75rem;
+    }
+    
+    
+}
