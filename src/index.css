@@ -5,8 +5,7 @@
 
 :root{
     --font-family: "Poppins", sans-serif;
-    --color-bg : rgb(20, 18, 20);
-    --color-text: rgb(215, 215, 215);
-    --color-subtext: rgb(144, 144, 144) ;
-    --color-orange: rgb(255, 155, 0);
+    --color-bg :linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    --color-text: #2c2c2c;
+    --color-subtext: rgb(114, 114, 114) ;
 }

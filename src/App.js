@@ -1,11 +1,15 @@
 import React from "react";
 import { Navbar } from "./components";
+import { Hero } from "./containers";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <div className="background__radient">
+        <Navbar />
+        <Hero />
+      </div>
     </div>
   );
 }
