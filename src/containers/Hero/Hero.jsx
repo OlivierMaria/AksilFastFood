@@ -1,6 +1,7 @@
 import React from "react";
 import "./hero.css";
 import hero from "../../assets/hero.png";
+import { BsBasket2Fill } from "react-icons/bs";
 
 function Hero() {
   return (
@@ -17,7 +18,9 @@ function Hero() {
           menu alléchant.
         </p>
 
-        <button className="aksil__hero-CTA">Je decouvre le menu</button>
+        <button className="aksil__hero-CTA">
+          Je découvre le menu <BsBasket2Fill className="askil__cart-icon" />
+        </button>
       </div>
       <div className="aksil__hero-image">
         <img src={hero} alt="" />
