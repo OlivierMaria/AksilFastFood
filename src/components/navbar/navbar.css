@@ -1,8 +1,35 @@
-*{
+/* *{
     border: 1px solid red;
-}
+} */
 
 .aksil__navbar{
    height: 5rem;
-   padding: 30px;
+   padding: 3rem;
+   display: flex;
+   align-items: center;
+}
+
+.aksil__navbar-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 2rem;
+}
+
+.aksil__navbar-links img{
+    height: 40px;
+    width: auto;
+}
+
+.aksil__navbar__links-link{
+    display: flex;
+    gap: 2rem;
+}
+
+.aksil__navbar__links-link a{
+    color: rgb(255, 254, 253);
+    font-size: 1.2rem;
+    font-family: var(--font-family);
+    font-weight: 500;
 }

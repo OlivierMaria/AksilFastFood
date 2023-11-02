@@ -1,28 +1,26 @@
 import React from "react";
 import "./navbar.css";
+import Logo from "../../assets/logo.png";
 
 function Navbar() {
   return (
     <div className="aksil__navbar">
       <div className="aksil__navbar-links">
         <div className="aksil__navbar-links_logo">
-          <img
-            src="../../Design sans titre - 2023-11-01T233621.100.png"
-            alt=""
-          />
+          <img src={Logo} alt="" />
         </div>
         <div className="aksil__navbar__links-link">
           <p>
-            <a href="#home">Home</a>
+            <a href="#home">Accueil</a>
           </p>
           <p>
-            <a href="#home">Home</a>
+            <a href="#home">A propos</a>
           </p>
           <p>
-            <a href="#home">Home</a>
+            <a href="#home">Menu</a>
           </p>
           <p>
-            <a href="#home">Home</a>
+            <a href="#home">Contact</a>
           </p>
         </div>
       </div>

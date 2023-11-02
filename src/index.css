@@ -1,12 +1,12 @@
-/*======================
-Table of contents
-========================
 
-1. General style 
-*/
-
-/*===============
-1. General style 
-================*/
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+:root{
+    --font-family: "Poppins", sans-serif;
+    --color-bg : rgb(20, 18, 20);
+    --color-text: rgb(215, 215, 215);
+    --color-subtext: rgb(144, 144, 144) ;
+    --color-orange: rgb(255, 155, 0);
+}

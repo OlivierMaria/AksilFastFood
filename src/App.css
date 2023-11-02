@@ -10,8 +10,11 @@
   }
   
   body {
-    background: rgb(202, 180, 180);
+    background: var(--color-bg);
   }
   
-
+a{
+  text-decoration: none;
+  color: unset;
+}
 
