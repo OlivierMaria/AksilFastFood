@@ -3,7 +3,7 @@ import "./menu.css";
 import { AksilMenu } from "./AksilMenu.js";
 
 function Menu() {
-  const [currentActive, setCurrentActive] = useState("Tacos");
+  const [currentActive, setCurrentActive] = useState("tacos");
   const [arr, setArr] = useState(AksilMenu);
   const handleClick = (buttonCategory) => {
     setCurrentActive(buttonCategory);

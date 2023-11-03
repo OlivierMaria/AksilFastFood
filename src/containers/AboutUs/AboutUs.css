@@ -92,23 +92,73 @@ font-weight: 500;
 
     @media screen and (max-width: 600px) {
 
-        .aksil__about-content_right{
-            margin-top: 2rem;
+        .aksil__about{
+            height: auto;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
-
+        
+        .aksil__about-content_left{
+            height: 100%;
+            width: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        
+        
+        .aksil__about-content_right{
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+        
+        .aksil__about-content_right h2{
+        font-family: var(--font-family);
+        color: var(--color-text);
+        font-size: 2.4rem;
+        }
+        
+        .aksil__about-content_right h4{
+            font-family: var(--font-family);
+            font-size: 1.2rem;
+            background: linear-gradient(-60deg, #ff5858, #f09819);
+            -webkit-background-clip: text; 
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 0.50rem;
+        }
+        
+        .aksil__about-content_right p{
+            font-family: var(--font-family);
+        color: var(--color-subtext);
+        font-size: 1rem;
+        }
+        
+        .aksil__about-span{
+            background: linear-gradient(-60deg, #ff5858, #f09819);
+            -webkit-background-clip: text; 
+            background-clip: text;
+            color: transparent;
+        }
+        
         .aksil__about-icons{
             margin-top: 4rem;
             display: flex;
-           gap: 2rem;
-           flex-direction: column;
+           gap: 1rem;
+           justify-content: flex-end;
            width: 90%;
            align-items: center;
         }
         
         
             .aksil__about-icons_background {
-                height: 4rem; 
-                width: 4rem; 
+                height: 3rem; 
+                width: 3rem; 
                 border-radius: 50%;
                 border: none;
                 display: flex;
@@ -118,7 +168,7 @@ font-weight: 500;
             }
         
             .aksil__about-icon{
-                font-size: 2rem;
+                font-size: 1.7rem;
                 color: var(--color-text);
                 cursor: pointer;
             }
