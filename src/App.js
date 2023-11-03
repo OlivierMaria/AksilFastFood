@@ -1,15 +1,18 @@
 import React from "react";
 import { Navbar, Infos } from "./components";
-import { Hero, AboutUs } from "./containers";
+import { Hero, AboutUs, Menu } from "./containers";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Hero />
+      <div className="green__wrapper">
+        <Navbar />
+        <Hero />
+      </div>
       <Infos />
       <AboutUs />
+      <Menu />
     </div>
   );
 }

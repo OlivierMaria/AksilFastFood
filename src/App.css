@@ -7,7 +7,7 @@
   
   
   body {
-    background: var(--color-bg);
+    background: rgb(15, 14, 13);
     height: 2500px;
   }
   
@@ -23,6 +23,11 @@ padding: 4rem 6rem;
 .section__margin{
   margin: 4rem 6rem;
 }
+
+.green__wrapper{
+  background:rgb(15, 14, 13);
+}
+
 @media screen and (max-width: 550px) {
   .section__padding {
     padding: 4rem 2rem;

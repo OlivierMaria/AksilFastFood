@@ -6,6 +6,7 @@ function AboutUs() {
   return (
     <div className="aksil__about section__margin">
       <div className="aksil__about-content_right">
+        <h4>Savourez l'Instant :</h4>
         <h2>
           À Propos d'Aksil Fast<span className="aksil__about-span">Food</span>
         </h2>

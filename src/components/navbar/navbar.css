@@ -34,34 +34,13 @@
     font-weight: 400;
 }
 
-@media screen and (max-width: 760px) {
-    .aksil__navbar{
-        height: 5rem;
-        padding: 1.7rem;
-        display: flex;
-        align-items: center;
-     }
-     
-     .aksil__navbar-links{
-         display: flex;
-         align-items: center;
-         width: 100%;
-         margin: 0 2rem;
-     }
-     
-     .aksil__navbar-links img{
-         height: 40px;
-         width: auto;
-     }
-     
-     .aksil__navbar__links-link{
-         display: none;
-     }
-}
 
 @media screen and (max-width: 600px) {
-
- 
+    .aksil__navbar-links img{
+        height: 40px;
+        width: auto;
+        margin: auto;
+    }
      .aksil__navbar__links-link{
          display: none;
      }

@@ -6,11 +6,12 @@ h2{
 }
 .aksil__infos{
     display: flex;
-    height: 300px;
+    height: 150px;
     width: auto;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: rgb(241, 241, 241);
 }
 
 .aksil__infos-content{
@@ -28,9 +29,9 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 1rem;
-background: var(--color-text);
+background: rgb(15, 14, 13);
 color: white;
-border-radius: 7px;
+border-radius: 4px;
 }
 
 .aksil__infos-content_card h4{
@@ -53,14 +54,20 @@ border-radius: 7px;
 
 @media screen and (max-width: 600px) {
 
-    
+    .aksil__infos{
+        display: flex;
+        height: 100%;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
     .aksil__infos-content{
-        margin-top: 1.5rem;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   gap: 1rem;
+   gap: 1.5rem;
     }
     
     .aksil__infos-content_card h4{
