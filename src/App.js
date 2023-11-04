@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Infos } from "./components";
+import { Navbar, Infos, Testimonial } from "./components";
 import { Hero, AboutUs, Menu } from "./containers";
 import "./App.css";
 
@@ -13,6 +13,7 @@ function App() {
       <Infos />
       <AboutUs />
       <Menu />
+      <Testimonial />
     </div>
   );
 }
