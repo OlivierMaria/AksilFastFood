@@ -132,6 +132,13 @@
   }
 }
 
+@media screen and (max-width: 916px) {
+  .aksil__contact-icon {
+    font-size: 3rem;
+    color: #ff5858;
+  }
+}
+
 @media screen and (max-width: 600px) {
 
  .aksil__contact .section__margin{

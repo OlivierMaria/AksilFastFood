@@ -7,7 +7,7 @@ import { BiTime, BiMapPin, BiPhoneCall } from "react-icons/bi";
 function Contact() {
   return (
     <div className="aksil__contact section__margin">
-      <h4>"Rejoignez-nous facilement :</h4>
+      <h4>Rejoignez-nous facilement :</h4>
       <h2>Trouvez-nous en un clic</h2>
       <div className="aksil__contact-content">
         <div className="aksil__contact-content_text ">
