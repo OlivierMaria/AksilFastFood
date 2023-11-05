@@ -15,27 +15,27 @@ function Footer() {
         </p>
         <ul className="aksil__footer-links">
           <li>
-            <a href="#">
+            <a href="#home">
               <AiFillInstagram className="aksil__footer-icon" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#home">
               <AiFillFacebook className="aksil__footer-icon" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#home">
               <SiUber className="aksil__footer-icon" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#home">
               <SiDeliveroo className="aksil__footer-icon" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#home">
               <SiVisa className="aksil__footer-icon" />
             </a>
           </li>
