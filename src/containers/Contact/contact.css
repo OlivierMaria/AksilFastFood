@@ -68,6 +68,70 @@
   color: #ff5858;
 }
 
+@media screen and (max-width: 1217px) {
+  .aksil__contact-content {
+    margin-top: 2rem;
+    display: flex;
+    align-items: flex-start;
+    height: 400px;
+  }
+  
+  .aksil__contact-content_text {
+    display: flex;
+    align-items: center;
+    /* background: red; */
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+  }
+  
+  .aksil__contact-content_map {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .aksil__contact h2 {
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-size: 1.8rem;
+  }
+  
+  .aksil__contact h4 {
+    font-family: var(--font-family);
+    font-size: 1.1rem;
+    background: linear-gradient(-60deg, #ff5858, #f09819);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 0.5rem;
+  }
+  
+  .aksil__contact-content_text {
+    padding: 1rem;
+    color: white;
+  }
+  
+
+  
+  .aksil__contact-content__p {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    margin: auto;
+    font-family: var(--font-family);
+    font-size: 0.85rem;
+    width: 100%;
+  }
+  
+  .aksil__contact-icon {
+    font-size: 2.5rem;
+    color: #ff5858;
+  }
+}
+
 @media screen and (max-width: 600px) {
 
  .aksil__contact .section__margin{
