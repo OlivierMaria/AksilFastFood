@@ -1,5 +1,6 @@
 import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import "./mapView.css";
 
 const MapView = () => {
   const position = [43.7012, 7.2619]; // Coordonnées de "Aksil Fastfood à Nice"
