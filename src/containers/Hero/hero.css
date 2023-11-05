@@ -168,12 +168,14 @@
     color: var(--color-text);
     line-height: 50px;
     margin-bottom: 2rem;
+    text-align: center;
 }
 .aksil__hero-content p{
     font-size: 0.95rem;
     color: var(--color-subtext);
     margin: 0.75rem 0 0 0;
     font-family: var(--font-family);
+    text-align: center;
 }
 
 .aksil__hero-CTA{
@@ -219,3 +221,67 @@
 }
 
 
+@media screen and (max-width: 390px) {
+    .aksil__hero{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .aksil__hero-content{
+        width: 100%;
+    }
+    .aksil__hero-content h1{
+        font-size: 1.5rem;
+        font-family: var(--font-family);
+        color: var(--color-text);
+        margin-bottom: 2rem;
+        line-height: 25px;
+    }
+    .aksil__hero-content p{
+        font-size: 0.85rem;
+        color: var(--color-subtext);
+        margin: 0.75rem 0 0 0;
+        font-family: var(--font-family);
+    }
+    
+    .aksil__hero-CTA{
+        margin-top: 2.5rem;
+        border: none;
+        font-family: var(--font-family);
+        background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+        padding: 0.85rem;
+        font-weight: 600;
+        border-radius: 6px;
+        font-size: 0.85rem;
+        align-items: center;
+        gap: 0.85rem;
+        display: flex;
+        color: rgb(240, 240, 240);
+        cursor: pointer;
+    }
+    
+    .askil__cart-icon{
+        font-size: 1.2rem;
+        color: rgb(240, 240, 240)
+    }
+    
+    .aksil__hero-content span {
+        background: linear-gradient(-60deg, #ff5858, #f09819);
+        -webkit-background-clip: text; 
+        background-clip: text;
+        color: transparent;
+    }
+    
+    
+    .aksil__hero-image{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .aksil__hero-image img{
+        height: auto;
+        width: 320px;
+    }
+}

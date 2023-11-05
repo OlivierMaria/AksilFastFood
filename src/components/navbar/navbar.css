@@ -32,10 +32,6 @@
     font-weight: 400;
 }
 
-
-@media screen and (max-width: 1065px) {
-
-}
 @media screen and (max-width: 600px) {
 
     .aksil__navbar{
@@ -61,3 +57,4 @@
          display: none;
      }
 }
+
