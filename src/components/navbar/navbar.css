@@ -1,4 +1,14 @@
+/*======================
+Table of contents
+========================
 
+1. Navbar
+2. Media Query
+*/
+
+/*===============
+1. Navbar
+================*/
 
 .aksil__navbar{
    height: 5rem;
@@ -31,7 +41,9 @@
     font-family: var(--font-family);
     font-weight: 400;
 }
-
+/*===============
+2. Media Query
+================*/
 @media screen and (max-width: 600px) {
 
     .aksil__navbar{

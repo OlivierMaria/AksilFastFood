@@ -177,7 +177,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 600px) {
     footer{
         margin-top: 9rem;
         background: #000000;
