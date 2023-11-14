@@ -1,6 +1,16 @@
-/* *{
-    border: 1px solid green;
-} */
+/*======================
+Table of contents
+========================
+
+1. Footer
+2. Infos Card
+3. Icon
+4. Media Query
+*/
+
+/*===============
+1. General
+================*/
 h2{
     margin-bottom: 2rem;
 }
@@ -20,7 +30,9 @@ width: 80%;
 justify-content: space-around;
 text-align: center;
 }
-
+/*===============
+2. Infos Card
+================*/
 .aksil__infos-content_card{
 height: 100px;
 width: 205px;
@@ -44,6 +56,9 @@ border-radius: 4px;
     font-family: var(--font-family);
     font-size: 0.75rem;
 }
+/*===============
+3. Icon
+================*/
 
 .aksil__infos-icon{
     height: 50px;
@@ -52,6 +67,9 @@ border-radius: 4px;
     color: #f95a5a;
 }
 
+/*===============
+4. Media Query
+================*/
 @media screen and (max-width: 1217px) {
     h2{
         margin-bottom: 2rem;
