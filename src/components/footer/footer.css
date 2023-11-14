@@ -1,17 +1,13 @@
-/* *{
-    border: 1px solid green;
-} */
-
 /*======================
 Table of contents
 ========================
 
-1. Navbar
+1. Footer
 2. Media Query
 */
 
 /*===============
-1. Navbar
+1. Footer
 ================*/
 footer{
     margin-top: 9rem;
@@ -70,6 +66,9 @@ footer{
     font-weight: 200;
 }
 
+/*===============
+2. Media Query
+================*/
 @media screen and (max-width: 1217px) {
     footer{
         margin-top: 7rem;
