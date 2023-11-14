@@ -1,7 +1,14 @@
-/* *{
-    border: 1px solid green;
-} */
+/*======================
+Table of contents
+========================
+1. General
+2. Icon
+3. Media Query
+*/
 
+/*===============
+1. General
+================*/
 .aksil__about{
     height: auto;
     width: auto;
@@ -56,6 +63,9 @@ font-size: 1rem;
     color: transparent;
 }
 
+/*===============
+2. Icon
+================*/
 .aksil__about-icons{
     margin-top: 4rem;
     display: flex;
@@ -90,6 +100,9 @@ font-size: 0.85rem;
 font-weight: 500;
     }
 
+/*===============
+3. Media Query
+================*/
     @media screen and (max-width: 1217px) {
         .aksil__about{
             height: auto;
