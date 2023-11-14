@@ -1,6 +1,14 @@
-/* *{
-    border: 1px solid green;
-} */
+/*======================
+Table of contents
+========================
+1. General
+2. Card
+3. Media Query
+*/
+
+/*===============
+1. General
+================*/
 
 .aksil__menu-container h4{
     font-family: var(--font-family);
@@ -56,6 +64,10 @@
     border-radius: 4px;
 }
 
+/*===============
+2. Card
+================*/
+
 .aksil__menu-right_card{
     display: flex;
     flex-grow: 1;
@@ -109,6 +121,10 @@
     border-image: linear-gradient(-60deg, #ff5858, #f09819);
     border-image-slice: 1;
 }
+
+/*===============
+3. Media Query
+================*/
 
 @media screen and (max-width: 1217px) {
     .aksil__menu-container h4{
